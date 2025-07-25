@@ -1,0 +1,41 @@
+.editor-container {
+  background: #23283a;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px #0002;
+  padding: 1rem;
+  position: relative;
+  min-width: 600px;
+  max-width: 700px;
+}
+
+.floating-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  background: #23283a;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 8px #0006;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  z-index: 20;
+  top: 60px;
+  left: 60px;
+  border: 1px solid #6ec1e4;
+}
+
+.floating-toolbar button {
+  background: #6ec1e4;
+  color: #181c24;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.floating-toolbar button:disabled {
+  background: #3a3f4b;
+  color: #888;
+  cursor: not-allowed;
+}

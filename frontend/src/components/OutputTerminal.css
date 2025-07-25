@@ -1,0 +1,30 @@
+.terminal-container {
+  background: #23283a;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px #0002;
+  padding: 1rem 1.5rem;
+  color: #f3f6fa;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  min-height: 120px;
+  margin-bottom: 1rem;
+}
+
+.terminal-container h3 {
+  margin-top: 0;
+  color: #6ec1e4;
+}
+
+.terminal-error {
+  background: #ff4d4f;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.terminal-container pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+}

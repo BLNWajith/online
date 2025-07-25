@@ -1,0 +1,38 @@
+.explanation-pane {
+  background: #23283a;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px #0002;
+  padding: 1rem 1.5rem;
+  color: #f3f6fa;
+  margin-bottom: 1rem;
+}
+
+.explanation-pane button {
+  background: #6ec1e4;
+  color: #181c24;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 0.7rem;
+}
+
+.explanation-content {
+  margin-top: 0.5rem;
+}
+
+.explanation-content h3 {
+  color: #6ec1e4;
+  margin-top: 0;
+}
+
+.explanation-error {
+  background: #ff4d4f;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
